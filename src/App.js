@@ -5,7 +5,6 @@ function App() {
   return (
     <div>
       <h1>Pasindu Peiris</h1>
-    
     </div>
   );
 }
