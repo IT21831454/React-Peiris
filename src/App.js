@@ -1,11 +1,12 @@
 import './App.css';
 import Nav from './Components/Nav/Nav';
+import Slide from './Components/Nav/Slide/slide';
 
 
 function App() {
   return (
-    <div>
-     <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="w-100">
+     <nav class="navbar navbar-dark bg-dark fixed-top w-100">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -46,6 +47,8 @@ function App() {
     </div>
   </div>
 </nav>
+
+<Slide/>
     </div>
   );
 }
